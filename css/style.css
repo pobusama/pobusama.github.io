@@ -90,11 +90,11 @@ a:hover, a:active {
 .content {
   height: auto;
   float: right;
-  width: 60%;
+  width: 64%;
   margin-top: 60px; }
 
 .page-top {
-  width: 60%;
+  width: 64%;
   position: fixed;
   right: 0;
   z-index: 3;
@@ -137,7 +137,7 @@ a:hover, a:active {
         padding-right: 40px; }
 
 .sidebar {
-  width: 40%;
+  width: 36%;
   background: url("http://obhagvjtl.bkt.clouddn.com/blog_bg.jpg") repeat;
   background-size: 200px 200px;
   height: 100%;
