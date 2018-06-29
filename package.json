@@ -1,0 +1,27 @@
+{
+  "name": "pobusama.github.io",
+  "version": "1.0.0",
+  "description": "[Welcome to my corner ;-) ](https://pobusama.github.io/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pobusama/pobusama.github.io.git"
+  },
+  "author": "pobusama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pobusama/pobusama.github.io/issues"
+  },
+  "homepage": "https://github.com/pobusama/pobusama.github.io#readme",
+  "faas": {
+    "domain": "pobusama.",
+    "public": "public",
+    "notice": [
+      "pobusama@gmail.com"
+    ],
+    "build": []
+  }
+}
