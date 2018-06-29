@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/pobusama/pobusama.github.io#readme",
   "faas": {
-    "domain": "pobusama.",
+    "domain": "pobusama.github.io",
     "public": "public",
     "notice": [
       "pobusama@gmail.com"
