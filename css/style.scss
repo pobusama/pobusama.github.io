@@ -194,7 +194,7 @@ a:hover, a:active {
 }
 .sidebar {
 	width: 36%;
-  background: url('http://obhagvjtl.bkt.clouddn.com/blog_bg.jpg') repeat;
+  background: #fff;
   background-size: 280px 246.5px;
 	height: 100%;
 	transition:0.8s;
@@ -203,6 +203,7 @@ a:hover, a:active {
 	position: fixed;
 	z-index: 4;
 	border-right: 1px solid #f2f2f2;
+  box-shadow: 2px 2px 5px #f3f3f3;
 
 	.logo-title{
 		text-align: center;
@@ -211,7 +212,7 @@ a:hover, a:active {
 
 		.description {
 			font-size: 14px;
-			color: #ccc;
+			color: #999;
 		}
 
 
@@ -221,17 +222,22 @@ a:hover, a:active {
 
 		.title{
 			h3 {
-				text-transform: uppercase;
+				// text-transform: uppercase;
 				font-size: 2rem;
 				font-weight: bold;
 				letter-spacing: 2px;
 				line-height: 1;
 				margin:0;
 			}
-
+      > img {
+        margin-bottom: 10px;
+        // box-shadow: 2px 2px 2px #ccc;
+        border-radius: 50%;
+        border: 4px solid #333;
+      }
 			a {
 				text-decoration: none;
-				color: #fff;
+				color: #333;
 				font-size: 2rem;
 				font-weight: bold;
 			}
@@ -256,7 +262,7 @@ a:hover, a:active {
 		}
 
 		a {
-			color: #ccc;
+			color: #999;
 		}
 		a:hover{
 			color: #4786D6;
@@ -271,14 +277,14 @@ a:hover, a:active {
 
 	.post-title{
 		h1 {
-			text-transform: uppercase;
+			// text-transform: uppercase;
 			font-size: 30px;
 			letter-spacing: 5px;
 			line-height: 1;
 		}
 
 		h2 {
-			text-transform: uppercase;
+			// text-transform: uppercase;
 			letter-spacing: 1px;
 			font-size: 28px;
 			line-height: 1;
@@ -288,7 +294,7 @@ a:hover, a:active {
 		}
 
 		h3 {
-			text-transform: uppercase;
+			// text-transform: uppercase;
 			letter-spacing: 1px;
 			line-height: 1;
 			font-weight: 600;
